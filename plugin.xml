@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="it.bankadati.mib.hooks"
+    version="0.0.1">
+  <name>Bankadati Cordova Hooks plugin</name>
+  <description>Bankadati Cordova Hooks plugin.</description>
+  <keywords>cordova,hooks,visualstudio,vs,visual,studio</keywords>
+  <repo></repo>
+  <issue></issue>
+  
+  <hook type="before_compile" src="hook-ios-rotation-fix.js" />
+  <hook type="after_prepare" src="hook-remove-files.js" />
+</plugin>
